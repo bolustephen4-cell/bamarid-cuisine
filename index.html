@@ -6,85 +6,94 @@
 </head>
 <body>
   <nav>
-  <a href="#about">About</a> |
-<a href="#menu">Menu</a> |
-<a href="#reviews">Reviews</a> |
-<a href="#contact">Contact</a>
+    <a href="#about">About</a> |
+    <a href="#menu">Menu</a> |
+    <a href="#reviews">Reviews</a> |
+    <a href="#contact">Contact</a>
   </nav>
-<header>
-  <h1>BAMARID CUISINE</h1>
-  <p>Delicious meals, made with love</p>
-</header>
-<section id="about">
-  <h2>About Us</h2>
-  <p>BAMARID PANTRY brings you pure, fresh, and local foodstuff - from rice, beans, garri, smoked fish, dried goat meat, dehydrated pepper and vegetables. We also offer palm oil, bulk food supply, event catering, and foodstuff exportation. Taste home in every pack</p>
-<section id="menu">
-  <h2>Our Menu</h2>
-  <div class="menu-item">
-  <span>Rice - ₦3,000</span>
-  <input type="number" id="qty-rice" min="0" value="0" style="width:50px;">
-</div>
-<div class="menu-item">
-  <span>Beans - ₦2,500</span>
-  <input type="number" id="qty-beans" min="0" value="0" style="width:50px;">
-</div>
-<div class="menu-item">
-  <span>Garri - ₦1,500</span>
-  <input type="number" id="qty-garri" min="0" value="0" style="width:50px;">
-</div>
-<div class="menu-item">
-  <span>Palm Oil - ₦4,000</span>
-  <input type="number" id="qty-palmoil" min="0" value="0" style="width:50px;">
-</div>
-<div class="menu-item">
-  <span>Smoked Fish - ₦5,000</span>
-  <input type="number" id="qty-smokedfish" min="0" value="0" style="width:50px;">
-</div>
-<div class="menu-item">
-  <span>Dried Goat Meat - ₦6,000</span>
-  <input type="number" id="qty-goatmeat" min="0" value="0" style="width:50px;">
-</div>
-<div class="menu-item">
-  <span>Dehydrated Vegetables - ₦2,000</span>
-  <input type="number" id="qty-vegetables" min="0" value="0" style="width:50px;">
-</div>
-<br>
-<button id="placeOrderBtn">Place Order</button>
-</section>
 
-<section id="reviews">
-  <h2>Customer Reviews</h2>
-  <div class="review">
-    <p>"Great quality rice and beans, delivered fast!" - Customer A</p>
-  </div>
-  <div class="review">
-    <p>"Best palm oil I've bought in Ibadan." - Customer B</p>
-  </div>
-  <form id="reviewForm">
-  <label for="reviewerName">Your Name:</label><br>
-  <input type="text" id="reviewerName" name="reviewerName"><br><br>
+  <header class="hero">
+    <div class="hero-slide"></div>
+    <div class="hero-slide"></div>
+    <div class="hero-slide"></div>
+    <div class="hero-slide"></div>
+    <div class="hero-slide"></div>
+    <div class="hero-content">
+      <h1>BAMARID CUISINE</h1>
+      <p>Pure. Fresh. Local. Taste of home in every pack.</p>
+      <a href="#menu" class="hero-btn">Order Now</a>
+    </div>
+  </header>
 
-  <label for="reviewText">Your Review:</label><br>
-  <textarea id="reviewText" name="reviewText" rows="3"></textarea><br><br>
-
-  <button type="submit">Submit Review</button>
-  </form>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>BAMARID PANTRY brings you pure, fresh, and local foodstuff - from rice, beans, garri, smoked fish, dried goat meat, dehydrated pepper and vegetables. We also offer palm oil, bulk food supply, event catering, and foodstuff exportation. Taste home in every pack</p>
   </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+      <span>Rice - ₦3,000</span>
+      <input type="number" id="qty-rice" min="0" value="0" style="width:50px;">
+    </div>
+    <div class="menu-item">
+      <span>Beans - ₦2,500</span>
+      <input type="number" id="qty-beans" min="0" value="0" style="width:50px;">
+    </div>
+    <div class="menu-item">
+      <span>Garri - ₦1,500</span>
+      <input type="number" id="qty-garri" min="0" value="0" style="width:50px;">
+    </div>
+    <div class="menu-item">
+      <span>Palm Oil - ₦4,000</span>
+      <input type="number" id="qty-palmoil" min="0" value="0" style="width:50px;">
+    </div>
+    <div class="menu-item">
+      <span>Smoked Fish - ₦5,000</span>
+      <input type="number" id="qty-smokedfish" min="0" value="0" style="width:50px;">
+    </div>
+    <div class="menu-item">
+      <span>Dried Goat Meat - ₦6,000</span>
+      <input type="number" id="qty-goatmeat" min="0" value="0" style="width:50px;">
+    </div>
+    <div class="menu-item">
+      <span>Dehydrated Vegetables - ₦2,000</span>
+      <input type="number" id="qty-vegetables" min="0" value="0" style="width:50px;">
+    </div>
+    <br>
+    <button id="placeOrderBtn">Place Order</button>
+  </section>
+
+  <section id="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="review">
+      <p>"Great quality rice and beans, delivered fast!" - Customer A</p>
+    </div>
+    <div class="review">
+      <p>"Best palm oil I've bought in Ibadan." - Customer B</p>
+    </div>
+    <form id="reviewForm">
+      <label for="reviewerName">Your Name:</label><br>
+      <input type="text" id="reviewerName" name="reviewerName"><br><br>
+      <label for="reviewText">Your Review:</label><br>
+      <textarea id="reviewText" name="reviewText" rows="3"></textarea><br><br>
+      <button type="submit">Submit Review</button>
+    </form>
+  </section>
+
   <section id="contact">
-  <h2>Contact Us</h2>
-<form id="contactForm">
-    <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name"><br><br>
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4"></textarea><br><br>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email"><br><br>
-
-  <label for="message">Message:</label><br>
-  <textarea id="message" name="message" rows="4"></textarea><br><br>
-
-  <button type="submit">Send Message</button>
-  </>
-</section>
   <script src="script.js"></script>
 </body>
 </html>
